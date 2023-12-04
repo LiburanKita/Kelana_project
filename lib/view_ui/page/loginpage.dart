@@ -58,7 +58,7 @@ class LoginPage extends StatelessWidget {
             globalStringVal: 'Username Cannot be empty',
             globalSuffixIcon: false,
             globalIsObscure: false,
-            globalInitialVal: 'skuyadmin@gmail.com ',
+            globalInitialVal: '',
           ),
           const WidgetPaddingOnly(topPadding: 10),
           WidgetTextFormField(
@@ -71,7 +71,7 @@ class LoginPage extends StatelessWidget {
             globalStringVal: 'Password Cannot be empty',
             globalSuffixIcon: true,
             globalIsObscure: true,
-            globalInitialVal: 'skuyskuy ',
+            globalInitialVal: '',
           ),
           const WidgetPaddingOnly(topPadding: 10),
           const WidgetRoundedLoadingBtn(),
